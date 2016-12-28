@@ -17,7 +17,7 @@ Install [Steel Bank Common Lisp](http://www.sbcl.org/).
 
 ### Encode
 
-`./sean -e $'<message>'
+`./sean -e $'<message>'`
 
 `$'<message>'` is the Bash string escape syntax so you can include special characters like `!`, `'`, or `"`, for example `$'What\'s that "thing"!!??'`.
 
