@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+
+if command -v rlwrap >/dev/null 2>&1; then
+  sbcl="rlwrap sbcl"
+else
+  sbcl="sbcl"
+fi
+
+$sbcl --noinform \
+--load lib/package.lisp \
+--load lib/split-sequence.lisp \
+--load lib/sean.lisp \
+--load testing/lisp-unit.lisp \
+--load testing/sean-test.lisp \
+--load interface/unix-options.lisp \
+--load interface/sean-main.lisp \
+--eval $"(in-package :sean)"

@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+sbcl --noinform \
+--load lib/package.lisp \
+--load lib/split-sequence.lisp \
+--load lib/sean.lisp \
+--load interface/unix-options.lisp \
+--load interface/sean-main.lisp \
+--eval $"(save-lisp-and-die \"sean\" :toplevel 'sean-main:main :executable t)"
