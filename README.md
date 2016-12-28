@@ -8,8 +8,8 @@ The command line interface and shell scripts currently only works with the Commo
 
 Install [Steel Bank Common Lisp](http://www.sbcl.org/).
 
-`git clone https://github.com/xinxinw1/rsa.git`  
-`cd rsa`
+`git clone https://github.com/xinxinw1/sean-bday.git`  
+`cd sean-bday`
 
 ## Compile
 
