@@ -13,7 +13,7 @@ Install [Steel Bank Common Lisp](http://www.sbcl.org/).
 
 ## Compile
 
-`./compile` This will make a file `rsa` in the current directory.
+`./compile` This will make a file `sean` in the current directory.
 
 ### Encode
 
